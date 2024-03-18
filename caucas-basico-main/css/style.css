@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    background-color: var(--gray-10);
+    
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+  
+}
+
+.interface {
+    margin: 0 auto;
+    height: 59.64px;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+#searchInput {
+    padding: 10px; 
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer; 
+}
+
+#charactersContainer {
+    display: none;
+    text-align: center;
+    margin-top: 20px
+}
+
+img {
+    width: 180px;
+    height: 130px;
+}
+
+header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #FFF;
+    transform: scale(1.5);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #114ac6;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover {
+    box-shadow: 0px 0px 8px #114ac6;
+}
+
+.img {
+    background-color: #FFF;
+    border: 20px;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+@media(max-width: 1669px) {
+    header {
+        padding: 20px 4%;
+    }
+    
+    img {
+        width: 120px; 
+        height: 90px;
+    }
+
+    header nav ul li {
+        padding: 0 10px; 
+    }
+
+    header .btn-contato button {
+        padding: 8px 16px;
+        font-size: 14px; 
+    }
+}
+
+@media(min-width: 945px) {
+    header {
+        padding: 20px 4%;
+    }
+    
+    img {
+        width: 120px; 
+        height: 90px;
+    }
+
+    header nav ul li {
+        padding: 0 10px; 
+    }
+
+    header .btn-contato button {
+        padding: 8px 16px;
+        font-size: 14px; 
+    }
+}
